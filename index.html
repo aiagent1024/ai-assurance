@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>AI Assurance — Risk assessment and guardrails for AI models and agents</title>
+  <meta name="description" content="AI Assurance is a research-backed AI risk assessment and guardrails platform from the Ethical and Trustworthy AI team. It assesses computer vision models, large language models, vision-language models and AI agents, and guards them with guardrails measured on the same attacks." />
+  <link rel="canonical" href="https://aiagent1024.github.io/ai-assurance/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="AI Assurance — Risk assessment and guardrails for AI models and agents" />
+  <meta property="og:description" content="Research-backed, fast and cost-effective, and tailored to real application needs. From the Ethical and Trustworthy AI team." />
+  <meta property="og:url" content="https://aiagent1024.github.io/ai-assurance/" />
+  <meta property="og:image" content="https://aiagent1024.github.io/ai-assurance/assets/social-card.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/site.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ============================ Navigation ============================ -->
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="#top" aria-label="AI Assurance, back to the top">
+        <img src="assets/favicon.svg" alt="" width="30" height="30" />
+        <span>AI Assurance</span>
+      </a>
+      <nav class="nav" aria-label="Sections">
+        <a href="#apart">What sets us apart</a>
+        <a href="#who">Who we work with</a>
+        <a href="#platform">Platform</a>
+        <a href="#workspaces">Workspaces</a>
+        <a href="#publications">Publications</a>
+      </nav>
+      <details class="menu">
+        <summary aria-label="Open the menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </summary>
+        <nav class="menu-panel" aria-label="Sections">
+          <a href="#apart">What sets us apart</a>
+          <a href="#who">Who we work with</a>
+          <a href="#platform">Platform</a>
+          <a href="#workspaces">Workspaces</a>
+          <a href="#publications">Publications</a>
+        </nav>
+      </details>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================ Hero ============================ -->
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="dot"></span> Research-backed · by the Ethical and Trustworthy AI team</p>
+          <h1>Assess and guard your AI models and agents</h1>
+          <p class="lead">
+            <strong>AI Assurance</strong> is an AI risk assessment and guardrails platform. It finds the risks in
+            computer vision models, large language models, vision-language models and AI agents, puts guardrails
+            in front of them, and measures what those guardrails stop on the same attacks.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#apart">What sets us apart</a>
+            <a class="btn btn-secondary" href="#who">Who we work with</a>
+          </div>
+        </div>
+
+        <figure class="rhythm" aria-labelledby="rhythm-title">
+          <figcaption>
+            <p class="label" id="rhythm-title">One rhythm in every workspace</p>
+          </figcaption>
+          <ol class="rhythm-steps">
+            <li>
+              <span class="step-num">01</span>
+              <div>
+                <h2>Build</h2>
+                <p>Register the datasets, the models and the compute they run on.</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-num">02</span>
+              <div>
+                <h2>Assess</h2>
+                <p>Try a model in the playground, submit a run, then read the leaderboard.</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-num step-num-guard">03</span>
+              <div>
+                <h2>Guard</h2>
+                <p>Put a guardrail in front of the model and benchmark it on the same attacks.</p>
+              </div>
+            </li>
+          </ol>
+          <div class="rhythm-foot">
+            <p class="label">The same pages in all four workspaces</p>
+            <ul class="ws-chips">
+              <li class="tone-cyan"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178zM15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>Computer vision model</li>
+              <li class="tone-brand"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z"/></svg>Large language model</li>
+              <li class="tone-violet"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.75 5.25A1.5 1.5 0 015.25 3.75h6a1.5 1.5 0 011.5 1.5v6a1.5 1.5 0 01-1.5 1.5h-6a1.5 1.5 0 01-1.5-1.5v-6zm0 4.5l2.03-2.03a1 1 0 011.44 0L9 9.5l.97-.97a1 1 0 011.41 0l1.37 1.37M16.5 6.75h3.75M16.5 10.5h3.75M3.75 16.5h16.5M3.75 20.25h10.5"/></svg>Vision-language model</li>
+              <li class="tone-amber"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4.5a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5zM12 4.5v2.25M7.5 6.75h9a3 3 0 013 3v6a3 3 0 01-3 3h-9a3 3 0 01-3-3v-6a3 3 0 013-3zM2.25 11.25v3M21.75 11.25v3M10.5 12a1.125 1.125 0 11-2.25 0 1.125 1.125 0 012.25 0zM15.75 12a1.125 1.125 0 11-2.25 0 1.125 1.125 0 012.25 0zM9.25 15.25c.7.9 1.7 1.35 2.75 1.35s2.05-.45 2.75-1.35"/></svg>Agentic system</li>
+            </ul>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============================ What sets us apart ============================ -->
+    <section class="apart" id="apart" aria-labelledby="apart-title">
+      <div class="wrap">
+        <p class="eyebrow eyebrow-on-dark"><span class="dot"></span> Three things</p>
+        <h2 class="section-title" id="apart-title">What sets our platform apart?</h2>
+
+        <div class="apart-grid">
+          <article class="apart-card">
+            <div class="apart-head">
+              <span class="apart-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"/></svg>
+              </span>
+              <span class="apart-num">01</span>
+            </div>
+            <h3>Backed by rigorous research</h3>
+            <p>
+              We have developed advanced red-teaming and guardrail algorithms in-house.
+              <strong>NesyGuard</strong>, our neuro-symbolic guardrail for agents, is one of them.
+            </p>
+            <div class="apart-note">
+              <p class="note-label">NesyGuard in practice</p>
+              <p>It seals a contract from the user's instruction before the agent reads any tool output, then checks every tool call against it.</p>
+            </div>
+          </article>
+
+          <article class="apart-card">
+            <div class="apart-head">
+              <span class="apart-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z"/></svg>
+              </span>
+              <span class="apart-num">02</span>
+            </div>
+            <h3>Fast and cost-effective</h3>
+            <p>
+              We draw on our expertise in high-performance computing to give our users solutions that keep
+              both the cost and the latency low.
+            </p>
+            <div class="apart-note">
+              <p class="note-label">In practice</p>
+              <p>Open models run on your own GPU workstations, started when needed and stopped when idle, and independent model calls run side by side.</p>
+            </div>
+          </article>
+
+          <article class="apart-card">
+            <div class="apart-head">
+              <span class="apart-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"/></svg>
+              </span>
+              <span class="apart-num">03</span>
+            </div>
+            <h3>Tailored to real application needs</h3>
+            <p>
+              We build it in close collaboration with domain experts, so the tests and the guardrails fit what
+              users actually face.
+            </p>
+            <div class="apart-note">
+              <p class="note-label">In practice</p>
+              <p>Agents are tested on realistic work, such as banking, office, team chat and travel tasks, where one injected instruction could do real harm.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ Who we work with ============================ -->
+    <section class="section" id="who" aria-labelledby="who-title">
+      <div class="wrap">
+        <h2 class="section-title" id="who-title">Built for organisations that deploy AI</h2>
+        <p class="section-lead">
+          We work with customers and collaborators who need evidence that their AI is safe, both before it goes
+          live and while it runs.
+        </p>
+
+        <div class="who-grid">
+          <article class="who">
+            <span class="who-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z"/></svg>
+            </span>
+            <h3>Public agencies</h3>
+            <p>Assess AI services before they reach the public, keep protected data on approved infrastructure, and keep an audit trail of every guardrail decision.</p>
+          </article>
+          <article class="who">
+            <span class="who-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z"/></svg>
+            </span>
+            <h3>Financial services providers</h3>
+            <p>Test agents that handle accounts and payments against injected instructions, and check every tool call before it can move money.</p>
+          </article>
+          <article class="who">
+            <span class="who-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/></svg>
+            </span>
+            <h3>Healthcare solution providers</h3>
+            <p>Check how models answer questions about medical images and whether they treat patient groups fairly, while patient data stays away from public cloud APIs.</p>
+          </article>
+          <article class="who">
+            <span class="who-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M13.5 16.875h3.375m0 0h3.375m-3.375 0V13.5m0 3.375v3.375M6 10.5h2.25a2.25 2.25 0 002.25-2.25V6a2.25 2.25 0 00-2.25-2.25H6A2.25 2.25 0 003.75 6v2.25A2.25 2.25 0 006 10.5zm0 9.75h2.25A2.25 2.25 0 0010.5 18v-2.25a2.25 2.25 0 00-2.25-2.25H6a2.25 2.25 0 00-2.25 2.25V18A2.25 2.25 0 006 20.25zm9.75-9.75H18a2.25 2.25 0 002.25-2.25V6A2.25 2.25 0 0018 3.75h-2.25A2.25 2.25 0 0013.5 6v2.25a2.25 2.25 0 002.25 2.25z"/></svg>
+            </span>
+            <h3>And more</h3>
+            <p>Any team that builds on detectors, language models, vision-language models or agents, and research partners who want to take a new attack or guardrail from paper to practice.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ Platform: three jobs ============================ -->
+    <section class="section" id="platform" aria-labelledby="platform-title">
+      <div class="wrap">
+        <h2 class="section-title" id="platform-title">What the platform helps you do</h2>
+        <p class="section-lead">Three jobs, from the first test of a model to the decision to release it.</p>
+
+        <div class="jobs-grid">
+          <article class="job">
+            <span class="job-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"/></svg>
+            </span>
+            <h3>Find the risks</h3>
+            <p>Test a model or an agent on benchmarks and attacks: robustness, safety, privacy, fairness, and utility under attack.</p>
+            <p class="job-users"><span>For</span> ML engineers and developers, AI researchers and evaluators</p>
+          </article>
+          <article class="job">
+            <span class="job-icon job-icon-guard" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2.25l7.5 3v6.75c0 5.25-3.5 8.25-7.5 9.75-4-1.5-7.5-4.5-7.5-9.75V5.25l7.5-3zM9 12l2 2 4-4"/></svg>
+            </span>
+            <h3>Stop the attacks</h3>
+            <p>Put a guardrail in front of the model, then measure what it stops — and what it costs in time — without and with it.</p>
+            <p class="job-users"><span>For</span> AI security and red teams, MLOps and platform teams</p>
+          </article>
+          <article class="job">
+            <span class="job-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/></svg>
+            </span>
+            <h3>Show the evidence</h3>
+            <p>Open the answer behind any score, compare models side by side, and export a report or read the audit log.</p>
+            <p class="job-users"><span>For</span> risk and compliance officers, auditors and regulators</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ Four workspaces ============================ -->
+    <section class="section section-soft" id="workspaces" aria-labelledby="ws-title">
+      <div class="wrap">
+        <h2 class="section-title" id="ws-title">One platform, four workspaces</h2>
+        <p class="section-lead">
+          Each workspace has its own datasets, models, runs, leaderboard and guardrails, behind one login.
+        </p>
+
+        <div class="ws-grid">
+          <article class="ws tone-cyan">
+            <div class="ws-head">
+              <span class="ws-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178zM15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg></span>
+              <div>
+                <h3>Computer vision model</h3>
+                <p class="io">Image in, detections out</p>
+              </div>
+            </div>
+            <dl>
+              <div><dt>Assess</dt><dd>How far does detection quality drop under blur, weather-like corruptions and adversarial attacks?</dd></div>
+              <div><dt class="dt-guard">Guard</dt><dd>Screening of adversarial images, input purification including a RAW camera-pipeline defence, and robust inference.</dd></div>
+            </dl>
+          </article>
+
+          <article class="ws tone-brand">
+            <div class="ws-head">
+              <span class="ws-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z"/></svg></span>
+              <div>
+                <h3>Large language model</h3>
+                <p class="io">Text in, text out</p>
+              </div>
+            </div>
+            <dl>
+              <div><dt>Assess</dt><dd>How accurate, safe and privacy-preserving is a model on curated benchmarks, from hallucination to jailbreak and privacy tests?</dd></div>
+              <div><dt class="dt-guard">Guard</dt><dd>A guardrail screens every prompt and answer, with jailbreak screening, block keywords and PII redaction from your policy.</dd></div>
+            </dl>
+          </article>
+
+          <article class="ws tone-violet">
+            <div class="ws-head">
+              <span class="ws-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3.75 5.25A1.5 1.5 0 015.25 3.75h6a1.5 1.5 0 011.5 1.5v6a1.5 1.5 0 01-1.5 1.5h-6a1.5 1.5 0 01-1.5-1.5v-6zm0 4.5l2.03-2.03a1 1 0 011.44 0L9 9.5l.97-.97a1 1 0 011.41 0l1.37 1.37M16.5 6.75h3.75M16.5 10.5h3.75M3.75 16.5h16.5M3.75 20.25h10.5"/></svg></span>
+              <div>
+                <h3>Vision-language model</h3>
+                <p class="io">Text and image in, text out</p>
+              </div>
+            </div>
+            <dl>
+              <div><dt>Assess</dt><dd>Does the model read images correctly, treat demographic groups fairly, and resist jailbreaks hidden in a picture?</dd></div>
+              <div><dt class="dt-guard">Guard</dt><dd>A guardrail reads the picture together with the prompt, alongside jailbreak screening and PII redaction on the text.</dd></div>
+            </dl>
+          </article>
+
+          <article class="ws tone-amber">
+            <div class="ws-head">
+              <span class="ws-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 4.5a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5zM12 4.5v2.25M7.5 6.75h9a3 3 0 013 3v6a3 3 0 01-3 3h-9a3 3 0 01-3-3v-6a3 3 0 013-3zM2.25 11.25v3M21.75 11.25v3M10.5 12a1.125 1.125 0 11-2.25 0 1.125 1.125 0 012.25 0zM15.75 12a1.125 1.125 0 11-2.25 0 1.125 1.125 0 012.25 0zM9.25 15.25c.7.9 1.7 1.35 2.75 1.35s2.05-.45 2.75-1.35"/></svg></span>
+              <div>
+                <h3>Agentic system</h3>
+                <p class="io">Text and tools in, text and actions out</p>
+              </div>
+            </div>
+            <dl>
+              <div><dt>Assess</dt><dd>Do tool-using agents finish their tasks in banking, office, team chat and travel domains, and can injected instructions hijack them?</dd></div>
+              <div><dt class="dt-guard">Guard</dt><dd>NesyGuard checks every tool call against a contract sealed from the user's instruction, and redacts an answer that leaks.</dd></div>
+            </dl>
+          </article>
+        </div>
+
+        <ul class="shared">
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"/></svg>
+            <span><strong>Privacy-aware routing.</strong> A private dataset never reaches a public cloud API: every dataset and model pair is checked before a run and again before each model call.</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5"/></svg>
+            <span><strong>Guardrails you can operate.</strong> Every workspace tries its guardrail on a test bench, benchmarks it without and with it, and serves it through an API with a policy editor and an audit log.</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================ Publications ============================ -->
+    <section class="section" id="publications" aria-labelledby="pub-title">
+      <div class="wrap">
+        <h2 class="section-title" id="pub-title">Selected publications from the team</h2>
+        <p class="section-lead">Peer-reviewed work on agent safety, privacy, robustness and medical AI.</p>
+
+        <div class="pubs">
+          <section class="pub-year" aria-labelledby="y2026">
+            <h3 class="year" id="y2026">2026</h3>
+            <ol class="pub-list">
+              <li class="pub">
+                <p class="pub-title"><a href="https://scholar.google.com/scholar?q=%22Securing+large+language+model+agents+against+multi-turn+jailbreaks+via+evolving+intent-risk+graphs%22" target="_blank" rel="noopener">Securing large language model agents against multi-turn jailbreaks via evolving intent-risk graphs</a></p>
+                <p class="pub-authors">Xinyu Liu, Chenwei Tang, Rong Xiao, Liangli Zhen, and Jiancheng Lv</p>
+                <p class="pub-venue"><span><em>Information Fusion</em>, 2026</span> <span class="tag">Agent safety</span></p>
+              </li>
+              <li class="pub">
+                <p class="pub-title"><a href="https://scholar.google.com/scholar?q=%22Safeguarding+federated+learning+from+data+reconstruction+attacks+via+gradient+dropout%22" target="_blank" rel="noopener">Safeguarding federated learning from data reconstruction attacks via gradient dropout</a></p>
+                <p class="pub-authors">Ekanut Sotthiwat, Chi Zhang, Xiaokui Xiao, and Liangli Zhen*</p>
+                <p class="pub-venue"><span><em>IEEE Transactions on Information Forensics and Security</em>, 2026</span> <span class="tag">Privacy</span></p>
+              </li>
+              <li class="pub">
+                <p class="pub-title"><a href="https://scholar.google.com/scholar?q=%22Dual-dynamic+in-context+learning+for+medical+image+segmentation%22" target="_blank" rel="noopener">Dual-dynamic in-context learning for medical image segmentation</a></p>
+                <p class="pub-authors">Tiana Tianying Chen, Liangli Zhen*, Yanyu Xu, Shishuai Hu, Huazhu Fu, and Limsoon Wong*</p>
+                <p class="pub-venue"><span><em>IEEE Transactions on Medical Imaging</em>, 2026</span> <span class="tag">Medical AI</span></p>
+              </li>
+              <li class="pub">
+                <p class="pub-title"><a href="https://scholar.google.com/scholar?q=%22Single-domain+generalization+via+path+flatness-aware+optimization+of+loss+landscapes%22" target="_blank" rel="noopener">Single-domain generalization via path flatness-aware optimization of loss landscapes</a></p>
+                <p class="pub-authors">Zizhou Wang, Yan Wang, Jiawei Du, Yangqin Feng, Joey Tianyi Zhou, Rick Siow Mong Goh, Yong Liu, and Liangli Zhen*</p>
+                <p class="pub-venue"><span><em>IEEE Transactions on Neural Networks and Learning Systems</em>, 2026</span> <span class="tag">Robustness</span></p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="pub-year" aria-labelledby="y2025">
+            <h3 class="year" id="y2025">2025</h3>
+            <ol class="pub-list">
+              <li class="pub">
+                <p class="pub-title"><a href="https://scholar.google.com/scholar?q=%22A+survey+and+evaluation+of+adversarial+attacks+in+object+detection%22" target="_blank" rel="noopener">A survey and evaluation of adversarial attacks in object detection</a></p>
+                <p class="pub-authors">Khoi Nguyen Tiet Nguyen*, Wenyu Zhang*, Kangkang Lu, Yuhuan Wu, Xingjian Zheng, Hui Li Tan, and Liangli Zhen*</p>
+                <p class="pub-venue"><span><em>IEEE Transactions on Neural Networks and Learning Systems</em>, 2025</span> <span class="tag">Adversarial attacks</span></p>
+              </li>
+              <li class="pub">
+                <p class="pub-title"><a href="https://scholar.google.com/scholar?q=%22Continuous+disentangled+joint+space+learning+for+domain+generalization%22" target="_blank" rel="noopener">Continuous disentangled joint space learning for domain generalization</a></p>
+                <p class="pub-authors">Zizhou Wang, Yan Wang, Yangqin Feng, Jiawei Du, Yong Liu, Rick Siow Mong Goh, and Liangli Zhen*</p>
+                <p class="pub-venue"><span><em>IEEE Transactions on Neural Networks and Learning Systems</em>, 2025</span> <span class="tag">Robustness</span></p>
+              </li>
+              <li class="pub">
+                <p class="pub-title"><a href="https://scholar.google.com/scholar?q=%22Vision-amplified+semantic+entropy+for+hallucination+detection+in+medical+visual+question+answering%22" target="_blank" rel="noopener">Vision-amplified semantic entropy for hallucination detection in medical visual question answering</a></p>
+                <p class="pub-authors">Zehui Liao, Shishuai Hu, Ke Zou, Huazhu Fu, Liangli Zhen*, and Yong Xia*</p>
+                <p class="pub-venue"><span><em>MICCAI</em>, 2025</span> <span class="tag">Hallucination</span></p>
+              </li>
+              <li class="pub">
+                <p class="pub-title"><a href="https://scholar.google.com/scholar?q=%22Generative+image+reconstruction+from+gradients%22" target="_blank" rel="noopener">Generative image reconstruction from gradients</a></p>
+                <p class="pub-authors">Ekanut Sotthiwat, Liangli Zhen*, Chi Zhang, Zengxiang Li, and Rick Goh</p>
+                <p class="pub-venue"><span><em>IEEE Transactions on Neural Networks and Learning Systems</em>, 2025</span> <span class="tag">Privacy</span></p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="pub-year" aria-labelledby="y2023">
+            <h3 class="year" id="y2023">2023</h3>
+            <ol class="pub-list">
+              <li class="pub">
+                <p class="pub-title"><a href="https://scholar.google.com/scholar?q=%22Generative+gradient+inversion+via+over-parameterized+convolutional+networks+in+federated+learning%22" target="_blank" rel="noopener">Generative gradient inversion via over-parameterized convolutional networks in federated learning</a></p>
+                <p class="pub-authors">Chi Zhang, Xiaoman Zhang, Ekanut Sotthiwat, Yanyu Xu, Ping Liu, Liangli Zhen*, and Yong Liu</p>
+                <p class="pub-venue"><span><em>ICCV</em>, 2023</span> <span class="tag">Privacy</span></p>
+              </li>
+            </ol>
+          </section>
+        </div>
+        <p class="footnote">* Corresponding author. Titles link to a Google Scholar search for the paper.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================ Footer ============================ -->
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <div class="footer-brand">
+        <img src="assets/favicon.svg" alt="" width="26" height="26" />
+        <p><strong>AI Assurance</strong> — an AI risk assessment and guardrails platform by the Ethical and Trustworthy AI team.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#apart">What sets us apart</a>
+        <a href="#who">Who we work with</a>
+        <a href="#platform">Platform</a>
+        <a href="#workspaces">Workspaces</a>
+        <a href="#publications">Publications</a>
+      </nav>
+    </div>
+  </footer>
+  <script>
+    // Close the phone menu once a section is picked.
+    document.querySelectorAll('.menu-panel a').forEach(function (a) {
+      a.addEventListener('click', function () { a.closest('details').removeAttribute('open'); });
+    });
+  </script>
+</body>
+</html>
