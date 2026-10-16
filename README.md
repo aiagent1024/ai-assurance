@@ -7,7 +7,7 @@ It is a static page with no build step:
 
 | File | What it holds |
 |---|---|
-| `index.html` | All the content: what sets the platform apart, who we work with, the platform, the four workspaces and the team's publications |
+| `index.html` | All the content: the illustrative example, the challenge, what sets the platform apart, how it works, the four workspaces (tabs), deploying it, who we work with (tabs), publications and FAQ; a small inline script drives the tabs and the phone menu |
 | `assets/site.css` | The styles, with light and dark themes |
 | `assets/favicon.svg` | The brand mark |
 | `assets/social-card.png` | The 1200 × 630 preview image shown when the link is shared |
